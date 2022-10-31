@@ -1,0 +1,181 @@
+body{
+
+    background-color: rgb(255, 238, 238);
+}
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    height: 120px ;
+    align-items: center;
+
+}
+
+.header div{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+
+#buscar, 
+.menuLogin span {
+    margin-left: 15px;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.menu{
+
+    display: flex;
+    justify-content: center;
+    background-color: #B21D5B;
+    padding: 15px 0px;
+    box-shadow: 3px 3px 10px rgb(133, 118, 118);
+    position: relative;
+}
+
+nav.menu a{
+    padding: 0px 20px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.baneer{
+
+    display: flex;
+    height: 600px;
+    background-color: #ffff;
+    align-items: center;
+    background-image: url(img/fondodehelado.jfif);
+    color: #ffff;
+    background-size: cover;
+}
+
+.baneer>div{
+    padding-left: 5%;
+
+}
+
+.btnbaneer{
+    width: 35%;
+    height: 35px;
+}
+
+
+.btncheck{
+    
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #B21D5B;
+    border-color: #d34d85;
+    
+}
+
+.arrivals{
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: rgb(253, 203, 158);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.btnarrivals{
+    width: 20%;
+    height: 35px;
+    margin : 0px 25px;
+
+}
+
+.announcements{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 450px;
+
+}
+
+.announcements div {
+
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/anuncio.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin : 10px;
+    
+}
+
+.mirron{
+
+    background-color: cyan;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.carrosuel{
+
+    margin-top: 40px;
+    width: 40%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    font-size: 80%;
+
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.info a{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:700px){
+
+    .mirron{
+        font-size: 90%;
+    }
+    .footer{
+        font-size: 70%;
+    }
+
+    .announcements div{
+        
+        width: 300px;
+        height: 400px;
+        margin: 3%;
+        font-size: 90%;
+    }
+}
